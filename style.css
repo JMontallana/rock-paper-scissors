@@ -14,3 +14,60 @@
 .container h1, .container p {
     padding: 20px;
 }
+
+.btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    padding-top: 2rem;
+}
+
+button {
+    padding: .5rem;
+    width: 80px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: beige;
+}
+
+.result-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+#computer, #player {
+    text-align: center;
+}
+
+.score-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding-top: 3rem;
+}
+
+.score-player, .score-computer {
+    border: 1px solid gray;
+    padding: 1rem 1rem 2.5rem 1rem;  
+    width: 180px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.final-result-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+
+
+
+
