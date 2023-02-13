@@ -2,6 +2,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    position: relative;
+    min-height: 100%;
+    padding-bottom: 2rem;
 }
 
 .container {
@@ -13,6 +24,18 @@
 
 .container h1, .container p {
     padding: 20px;
+}
+
+.container p {
+    color: brown;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.choose-container {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 1rem 1rem 1rem;
 }
 
 .btn-container {
@@ -54,17 +77,29 @@ button:hover {
 
 .score-player, .score-computer {
     border: 1px solid gray;
-    padding: 1rem 1rem 2.5rem 1rem;  
+    padding: 1rem 1rem 1.5rem 1rem;  
     width: 180px;
     text-align: center;
     border-radius: 10px;
 }
 
-.final-result-container {
+.final-container h2 {
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding-top: 2rem;
+    padding: 2rem;
+    margin: 2rem;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: darkcyan;
+    padding: 2rem;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
 }
 
 
